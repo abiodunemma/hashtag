@@ -1,0 +1,37 @@
+
+body{
+    
+ }
+ 
+.all-posts .box-container{
+    overflow-x: hidden;
+    gap: 1.5rem;
+    align-items: flex-start;
+    
+}
+
+.all-posts .box-container .box{
+background-color: var(--white);
+box-shadow: var(--white);
+border-radius: .5rem;
+padding: 2rem;
+border: var(--white);
+overflow-x: hidden;
+
+}
+
+.all-posts .box-container .box .image{
+    width: 100%;
+    height: 20rem;
+    border-radius: .5rem;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
+
+.all-posts .box-container .box .title{
+    font-size: 20rem;
+    color: var(--black);
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+}
+
